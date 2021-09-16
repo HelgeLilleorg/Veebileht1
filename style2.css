@@ -64,3 +64,13 @@
         
     
       }
+      footer {
+        float: left;
+      }
+      .myimage {
+        height: 20px;
+        width: 30px;
+        margin-right: 0;
+        margin-left:auto;
+        display:block;
+      }
