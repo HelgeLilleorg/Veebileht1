@@ -13,32 +13,54 @@
     }
     header {
         background-color: #666;
-  padding: 30px;
+ 
   text-align: center;
   font-size: 35px;
   color: white;
     }
 
-    section {
-        display: -webkit-flex;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-      }
+    
 
   
       .content {
         max-width: 500px;
-        margin: auto;
+        margin: 0px;
         background: pink;
-        padding: 10px;
+        
 
       }
       .element {
-        align-items: center;
-        align-content: center;
+        color: black;
         display: flex;
         flex-direction: column;
+        border: 5px solid  #555;
+        margin: 10px;
+        padding: 10px;
+        width: auto;
+        line-height: 150%;
+        border-radius: 15px;
         text-align: center;
 
+      }
+      .pea {
+        float: left; 
+
+      
+    
+      }
+      h2 {
+          background-color: blue;
+          width: auto;
+          height: 70px;
+          padding: 0px;
+      }
+      .aeg {
+          float: right;
+      }
+      .time {
+        float: right;
+        width: 30px;
+        border: 3px solid #73AD21;
+        
+    
       }
