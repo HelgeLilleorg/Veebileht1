@@ -1,0 +1,44 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    
+    }
+   html, body {
+       align-items: center;
+       align-content: center;
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+       background: #555;
+  
+    }
+    header {
+        background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+    }
+
+    section {
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+      }
+
+  
+      .content {
+        max-width: 500px;
+        margin: auto;
+        background: pink;
+        padding: 10px;
+
+      }
+      .element {
+        align-items: center;
+        align-content: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+      }
