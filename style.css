@@ -1,61 +1,86 @@
 * {
     font-family: 'Open Sans', sans-serif;
-    }
-   html, body {
-       align-items: center;
-       align-content: center;
-       display: flex;
-       flex-direction: column;
-       text-align: center;
-       
- 
-  
+}
 
-   
-   
-    }
- 
+html,
+body {
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: #ececec;
+}
 
 h2 {
     font-size: 16px;
     text-align: center;
-    
-  
 }
+
 .form-structor {
+    background: white;
     color: black;
     display: flex;
     flex-direction: column;
     border: 5px solid pink;
-    margin: 100px;
-    padding: 10px;
-    width: 170px;
+    box-shadow: 8px 10px 25px 1px darkgrey;
+    margin: 70px;
+    padding: 20px;
     line-height: 150%;
     border-radius: 15px;
     text-align: center;
-}
-.signup {
-    display: flex;
-    flex-direction: column;
+    font-size: 14px;
 }
 
-.submit-btn {
-    
-border: pink;
-outline: 0;
-cursor: pointer;
-text-decoration: none;
-overflow: visible;
-background: pink;
-padding:0 16px;
--webkit-border-radius: 3px;
--moz-border-radius: 3px;
-border-radius: 3px;
-color: #222;
-width: 100%;
-height: 26px;
+.form-structor a {
+    text-decoration: none;
+    transition: all 0.5s linear;
 }
-.buttontext {
-    text-align: center;
-    
+
+a:hover {
+    color: palevioletred;
+}
+
+.structure-heading {
+    display: flex;
+    justify-content: start;
+}
+
+.structure-heading img {
+    padding-top: 20px;
+    padding-right: 8px;
+}
+
+div img {
+    float: left;
+    display: inline;
+    height: 30px;
+    width: 40px;
+}
+
+span {
+    display: block;
+}
+
+#login {
+    border: pink;
+    outline: 0;
+    cursor: pointer;
+    text-decoration: none;
+    overflow: visible;
+    background: pink;
+    padding: 0 16px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    height: 26px;
+    box-shadow: 3px 3px 6px -2px darkgrey;
+    transition: all 0.3s linear;
+}
+
+#login:hover {
+    box-shadow: 6px 6px 8px -2px darkgrey;
 }
