@@ -137,12 +137,13 @@ footer {
 
 input{
 
-    width:50%;
+    width:40%;
     
 }
 
 
 button{
+   
     width:90px;
     background-color:#ececec;
 }
@@ -181,7 +182,7 @@ button{
     left: 0px;
     height: 43px;
     width: 100%;
-    background: white;
+    background:#555;
 }
 
 
