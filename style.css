@@ -33,7 +33,6 @@ h2 {
 }
 
 .form-structor a {
-    text-decoration: none;
     transition: all 0.5s linear;
 }
 
@@ -83,4 +82,16 @@ span {
 
 #login:hover {
     box-shadow: 6px 6px 8px -2px darkgrey;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link.alumine {
+    font-size: 13px;
+}
+
+section+p {
+    color: cyan;
 }

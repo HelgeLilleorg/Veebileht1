@@ -15,7 +15,7 @@ body {
 .content {
     max-width: 500px;
     margin: 0px;
-    margin-top:27px;
+    margin-top: 27px;
     background: pink;
     color: black;
     display: flex;
@@ -30,12 +30,15 @@ body {
     box-shadow: 2px 2px 20px 10px darkgrey;
 }
 
-.element {
+aside~article {
+    margin: 0px 40px 40px 40px;
+}
+
+article {
     color: white;
     display: flex;
-    background-color:#555;
+    background-color: #555;
     flex-direction: column;
-    margin: 40px 40px 0px 40px;
     padding: 20px;
     width: auto;
     line-height: 150%;
@@ -44,6 +47,10 @@ body {
     -moz-border-radius: 10px;
     border-radius: 10px;
     box-shadow: 2px 2px 20px -5px black;
+}
+
+img+h4 {
+    text-transform: uppercase;
 }
 
 h2 {
@@ -60,7 +67,7 @@ h2 {
     border: 3px solid #73AD21;
 }
 
-footer {
+.bottom-part {
     float: left;
     background-color: #555;
     margin: 0px;
@@ -124,40 +131,28 @@ footer {
     padding-bottom: 5px;
 }
 
-
-#form{
-    
-    width:50%;
-    margin-left:auto;
-    margin-right:auto;
-    margin-top:8px;
+#form {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
     margin-bottom: 16px;
 }
 
-
-input{
-
-    width:40%;
-    
+input {
+    width: 40%;
 }
 
-
-button{
-   
-    width:90px;
-    background-color:#ececec;
+button {
+    width: 90px;
+    background-color: #ececec;
 }
 
-
-
-#userIcon{
-
+#userIcon {
     height: 27px;
-    
 }
 
-#postItIcon{
-
+#postItIcon {
     height: 27px;
 }
 
@@ -167,22 +162,18 @@ button{
     left: 16px;
 }
 
-
-  .topright {
+.topright {
     position: absolute;
     top: 8px;
     right: 16px;
 }
 
-
-.topbar{
+.topbar {
     position: absolute;
     top: 0px;
     right: 0px;
     left: 0px;
     height: 43px;
     width: 100%;
-    background:#555;
+    background: #555;
 }
-
-
