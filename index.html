@@ -1,116 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Post-it!</title>
-    <link rel="stylesheet" type="text/css" href="style2.css">
-</head>
+    <link rel="stylesheet" type="text/css" href="style2.css" />
+  </head>
 
-<body>
-
+  <body>
     <div class="topbar">
-        <form id="form">
-            <input type="text" name="s">
-            <button>Search</button>
-        </form>
-        <div class="topright"><img id="userIcon" src="postit2.jpg"></div>
-        <div class="topleft"><img id="postItIcon" src="postit.jpg"></div>
+      <form id="form">
+        <input type="text" name="s" />
+        <button>Search</button>
+      </form>
+      <div class="topright"><img id="userIcon" src="postit2.jpg" /></div>
+      <div class="topleft"><img id="postItIcon" src="postit.jpg" /></div>
     </div>
 
-
     <section class="content">
-
-        <aside>
-            <!-- I didn't really find a way to implement
+      <aside>
+        <!-- I didn't really find a way to implement
             general sibling combinator, where it would 
             impact more than one element, so I made this
             to use it -->
-        </aside>
+      </aside>
 
-        <article style="margin-top: 40px;">
-            <div class="header-section">
-                <div class="header-section-1">
-                    <div class="site-logo">
-                        <img class="header-image" src="postit2.jpg">
-                    </div>
-                </div>
-                <div class="header-section-2">
-                    <time datetime="2018-07-07">July 7, 2018 12:34 </time>
-                </div>
+      <article class="unit" style="margin-top: 40px">
+        <div class="header-section">
+          <div class="header-section-1">
+            <div class="site-logo">
+              <img class="header-image" src="postit2.jpg" />
             </div>
-            <img src="meem1.jpg">
-            <h4>My favourite meme!</h4>
-            <div class="bottom-part">
-                <div class="post-like">
-                    <input type="image" class="myimage" src="like1.png" />
-                </div>
+          </div>
+          <div class="header-section-2">
+            <time datetime="2018-07-07">July 7, 2018 12:34 </time>
+          </div>
+        </div>
+
+        <div class="middlepart">
+          <img src="meem1.jpg" />
+          <h4>My favourite meme!</h4>
+        </div>
+
+        <div class="bottom-part">
+          <div class="post-like">
+            <input type="image" class="myimage" src="like1.png" />
+          </div>
+        </div>
+      </article>
+
+      <article class="unit">
+        <div class="header-section">
+          <div class="header-section-1">
+            <div class="site-logo">
+              <img class="header-image" src="postit2.jpg" />
             </div>
-        </article>
+          </div>
+          <div class="header-section-2">
+            <time datetime="2018-07-07">July 7, 2018 13:15 </time>
+          </div>
+        </div>
+        <div class="middlepart">
+          <p>Niisama lällasin terve päev netis!</p>
+        </div>
+        <div class="bottom-part">
+          <div class="post-like">
+            <input type="image" class="myimage" src="like1.png" />
+          </div>
+        </div>
+      </article>
 
-
-        <article>
-            <div class="header-section">
-                <div class="header-section-1">
-                    <div class="site-logo">
-                        <img class="header-image" src="postit2.jpg">
-                    </div>
-                </div>
-                <div class="header-section-2">
-                    <time datetime="2018-07-07">July 7, 2018 13:15 </time>
-                </div>
+      <article class="unit">
+        <div class="header-section">
+          <div class="header-section-1">
+            <div class="site-logo">
+              <img class="header-image" src="postit2.jpg" />
             </div>
-            <p>Niisama lällasin terve päev netis!</p>
-            <div class="bottom-part">
-                <div class="post-like">
-                    <input type="image" class="myimage" src="like1.png" />
-                </div>
+          </div>
+          <div class="header-section-2">
+            <time datetime="2018-07-07">July 7, 2018 13:45 </time>
+          </div>
+        </div>
+        <div class="middlepart">
+          <p>Niisama lällasin terve päev netis!</p>
+        </div>
+        <div class="bottom-part">
+          <div class="post-like">
+            <input type="image" class="myimage" src="like1.png" />
+          </div>
+        </div>
+      </article>
+
+      <article class="unit">
+        <div class="header-section">
+          <div class="header-section-1">
+            <div class="site-logo">
+              <img class="header-image" src="postit2.jpg" />
             </div>
-        </article>
+          </div>
+          <div class="header-section-2">
+            <time datetime="2018-07-07">July 7, 2018 14:25</time>
+          </div>
+        </div>
 
+        <div class="middlepart">
+          <img src="meem2.jpg" />
+          <h4>My favourite meme!</h4>
+        </div>
 
-        <article>
-            <div class="header-section">
-                <div class="header-section-1">
-                    <div class="site-logo">
-                        <img class="header-image" src="postit2.jpg">
-                    </div>
-                </div>
-                <div class="header-section-2">
-                    <time datetime="2018-07-07">July 7, 2018 13:45 </time>
-                </div>
-            </div>
-            <p>Niisama lällasin terve päev netis!</p>
-            <div class="bottom-part">
-                <div class="post-like">
-                    <input type="image" class="myimage" src="like1.png" />
-                </div>
-            </div>
-        </article>
-
-
-        <article>
-            <div class="header-section">
-                <div class="header-section-1">
-                    <div class="site-logo">
-                        <img class="header-image" src="postit2.jpg">
-                    </div>
-                </div>
-                <div class="header-section-2">
-                    <time datetime="2018-07-07">July 7, 2018 14:25</time>
-                </div>
-            </div>
-            <img src="meem2.jpg">
-            <h4>My favourite meme!</h4>
-            <div class="bottom-part">
-                <div class="post-like">
-                    <input type="image" class="myimage" src="like1.png" />
-                </div>
-            </div>
-        </article>
-
-
+        <div class="bottom-part">
+          <div class="post-like">
+            <input type="image" class="myimage" src="like1.png" />
+          </div>
+        </div>
+      </article>
     </section>
-</body>
-
+  </body>
 </html>

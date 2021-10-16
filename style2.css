@@ -49,6 +49,16 @@ article {
     box-shadow: 2px 2px 20px -5px black;
 }
 
+.middlepart {
+    padding: 20px;
+    width: auto;
+    line-height: 150%;
+    text-align: left;
+    flex-direction: column;
+    display: flex;
+
+}
+
 img+h4 {
     text-transform: uppercase;
 }
