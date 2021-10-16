@@ -2,101 +2,32 @@
     {
       "userId": 1,
       "id": 1,
-      "user": "usericon.png",
-      "datetime": "2017-07-07",
+      "user": {
+          "src": "usericon.png"
+      },
+      "datetime": "\"2014-01-01T23:28:56.782Z\"",
       "content": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nr",
-      "image": "meem1.jpg",
-      "bottom": "like1.png"
+      "image": { 
+        "src": "meem1.jpg"
+      }, 
+      "bottom": {
+          "src":  "like1.png"
+    }
+},
+{
+    "userId": 1,
+    "id": 2,
+    "user": {
+        "src": "usericon.png"
     },
-    {
-        "userId": 1,
-        "id": 2,
-        "user": "usericon.png",
-        "datetime": "2017-07-07",
-        "content": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nr",
-        "image": "meem1.jpg",
-        "bottom": "like1.png"
-      },
-      {
-        "userId": 1,
-        "id": 3,
-        "user": "usericon.png",
-        "datetime": "2017-07-07",
-        "content": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nr",
-        "image": "meem1.jpg",
-        "bottom": "like1.png"
-      },
-      {
-        "userId": 1,
-        "id": 4,
-        "user": "usericon.png",
-        "datetime": "2017-07-07",
-        "content": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nr",
-        "image": "meem1.jpg",
-        "bottom": "like1.png"
-      },
-      {
-        "userId": 1,
-        "id": 5,
-        "user": "usericon.png",
-        "datetime": "2017-07-07",
-        "content": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nr",
-        "image": "meem1.jpg",
-        "bottom": "like1.png"
-      },
-      {
-        "userId": 1,
-        "id": 6,
-        "user": "usericon.png",
-        "datetime": "2017-07-07",
-        "content": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nr",
-        "image": "meem1.jpg",
-        "bottom": "like1.png"
-      },
-      {
-        "userId": 1,
-        "id": 7,
-        "user": "usericon.png",
-        "datetime": "2017-07-07",
-        "content": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nr",
-        "image": "meem1.jpg",
-        "bottom": "like1.png"
-      },
-      {
-        "userId": 1,
-        "id": 8,
-        "user": "usericon.png",
-        "datetime": "2017-07-07",
-        "content": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nr",
-        "image": "meem1.jpg",
-        "bottom": "like1.png"
-      },
-      {
-        "userId": 1,
-        "id": 9,
-        "user": "usericon.png",
-        "datetime": "2017-07-07",
-        "content": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nr",
-        "image": "meem1.jpg",
-        "bottom": "like1.png"
-      },
-      {
-        "userId": 1,
-        "id": 10,
-        "user": "usericon.png",
-        "datetime": "2017-07-07",
-        "content": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nr",
-        "image": "meem1.jpg",
-        "bottom": "like1.png"
-      },
-      {
-        "userId": 1,
-        "id": 11,
-        "user": "usericon.png",
-        "datetime": "2017-07-07",
-        "content": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nr",
-        "image": "meem1.jpg",
-        "bottom": "like1.png"
-      }
+    "datetime": "\"2014-01-01T23:28:56.782Z\"",
+    "content": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nr",
+    "image": { 
+      "src": "meem1.jpg"
+    }, 
+    "bottom": {
+        "src":  "like1.png"
+  }
+}
     ]
    
