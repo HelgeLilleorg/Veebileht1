@@ -1,27 +1,37 @@
- $(function() {
-    $.get("posts.json", function(posts) {
-   // $.get("https://jsonplaceholder.typicode.com/posts", function(posts) 
+$(function() {
+    $.getJSON('posts.json', function(data) {
+        $(data).each(function(index, value) {
+            let div = $('<article class= "unit">');
 
-    for (post of posts) {
-        let div = $('<article class= "unit">');
-        let user = $('<div class="site-logo">').text(post.user);
-        let datetime = $('<div class="header-section-2">').text(post.datetime);
-       // let content = $('<div class="middlepart">').text(post.content);
-        
-        
-       let content = $('<h4>').text(post.content);
-       let image = $('<img>').text(post.image);
-       let bottom = $('<div class="bottom-part"></div>').text(post.bottom);
+            let headerimage = $('<img>', { class: "header-image", src: value.user.src });
+            let headerSec = $('<div class="header-section">');
+            let headerSec1 = $('<div class="header-section-1">');
+            let siteLogo = $('<div class="site-logo">');
+            let headerSec2 = $('<div class="header-section-2">');
+            let middle = $('<div class="middlepart">');
+            let bottom = $('<div class="bottom-part">');
+            let postLike = $('<div class="post-like">');
 
-        div.append(user);
-        div.append(datetime);
-        div.append(content);
-        div.append(image);
-        div.append(bottom);
+            let datetime = $('<div>').text(value.datetime);
+            let image = $('<img>', { src: value.image.src });
+            let content = $('<h5>').text(value.content);
+            let like = $('<img>', { class: 'myimage', src: 'like1.png' });
 
-        $('body').append(div)
-    }
+            $('section').append(div);
+            $(div).append(headerSec);
+            $(div).append(middle);
+            $(div).append(bottom);
+            $(headerSec).append(headerSec1);
+            $(headerSec).append(headerSec2);
+            $(headerSec1).append(siteLogo);
 
-})
+            $(siteLogo).append(headerimage);
+            $(headerSec2).append(datetime);
+            $(middle).append(image);
+            $(middle).append(content);
+            $(bottom).append(postLike);
+            $(postLike).append(like);
+        })
+    })
 
-}); 
+});
