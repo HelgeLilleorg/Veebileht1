@@ -21,7 +21,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: auto;
+    width: 80%;
     line-height: 150%;
     text-align: center;
     -webkit-border-radius: 10px;
@@ -47,6 +47,8 @@ article {
     -moz-border-radius: 10px;
     border-radius: 10px;
     box-shadow: 2px 2px 20px -5px black;
+    margin-top: 27px;
+    width: 50%;
 }
 
 .middlepart {

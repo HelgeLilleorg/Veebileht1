@@ -21,8 +21,10 @@ $(document).ready(function () {
                 $(datetime).addClass("header-section");
                 $(datetime).addClass("header-section-2");
 
-                let image = $('<img>').text(value.image.src);
+                //let image = $('<img>').attr("source", value.image.src);
                 let content = $('<h4>').text(value.content);
+
+                //console.log(image);
 
                 let like = $('<img>', { class: 'my-image', src: 'like1.png' });
                 $(like).addClass("bottom-part");
@@ -30,26 +32,22 @@ $(document).ready(function () {
 
 
 
-
                 $(div).append(datetime);
                 $(div).append(headerimage);
                 $(div).append(content);
                 $(div).append(image);
-                $(div).append(like)               
+                $(div).append(like);               
 
-                $(div2).append(datetime);
-                $(div2).append(headerimage);
-                $(div2).append(content);
-                $(div2).append(image);
-                $(div2).append(like);
+
+
 
 
          
-                $('body').append(div);
+              
 
                 $('body').append(div2);
 
-
+                $('body').append(div);
 
 
 
@@ -74,4 +72,3 @@ $(document).ready(function () {
 })
 
 
-//datetime, content ? image ? 
