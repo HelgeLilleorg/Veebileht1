@@ -16,7 +16,14 @@
             <input type="text" name="s" />
             <button>Search</button>
         </form>
-        <div class="topright"><img id="userIcon" src="postit2.jpg" /></div>
+        <div class="topright">
+            <img id="userIcon" src="postit2.jpg" onclick="myFunction()" />
+
+            <div id="myDropdown" class="dropdown-content">
+                <option value="1" class="first">John Smith</option>
+                <option value="2" class="">john.smith@gmail.com</option>
+            </div>
+        </div>
         <div class="topleft"><img id="postItIcon" src="postit.jpg" /></div>
     </div>
 
